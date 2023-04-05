@@ -1,20 +1,20 @@
 package org.example.certificateExam1.exam2;
-class Student {
+class Student2{
     String name;
     int age;
 
-    Student() {
+    Student2() {
         new Student("James", 25);
     }
 
-    Student(String name, int age) {
+    Student2(String name, int age) {
         this.name = name;
         this.age = age;
     }
 }
 public class Exam35 {
     public static void main(String[] args) {
-        Student s = new Student();
+        Student2 s = new Student2();
         System.out.println(s.name + ":" + s.age);
     }
 }
